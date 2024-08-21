@@ -26,6 +26,12 @@ body {
 
   /* align-items: end;
   justify-items: center; */
+
+  grid-template-areas:
+    "one one four"
+    "two two four"
+    "three . four"
+    "five five five";
 }
 
 .grid__item {
@@ -38,6 +44,26 @@ body {
 }
 
 .grid__item1 {
+  grid-area: one;
+}
+
+.grid__item2 {
+  grid-area: two;
+}
+
+.grid__item3 {
+  grid-area: three;
+}
+
+.grid__item4 {
+  grid-area: four;
+}
+
+.grid__item5 {
+  grid-area: five;
+}
+
+/* .grid__item1 {
   align-self: start;
   justify-self: start;
 }
@@ -50,7 +76,7 @@ body {
 .grid__item3 {
   align-self: end;
   justify-self: end;
-}
+} */
 
 /* .grid__item1 {
    grid-column-start: 1;
