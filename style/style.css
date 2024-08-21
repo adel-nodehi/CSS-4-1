@@ -24,8 +24,8 @@ body {
   row-gap: 2rem; */
   gap: 1rem;
 
-  align-items: end;
-  justify-items: center;
+  /* align-items: end;
+  justify-items: center; */
 }
 
 .grid__item {
@@ -35,6 +35,21 @@ body {
   text-align: center;
   font-size: 2.4rem;
   padding: 3rem;
+}
+
+.grid__item1 {
+  align-self: start;
+  justify-self: start;
+}
+
+.grid__item2 {
+  align-self: center;
+  justify-self: center;
+}
+
+.grid__item3 {
+  align-self: end;
+  justify-self: end;
 }
 
 /* .grid__item1 {
